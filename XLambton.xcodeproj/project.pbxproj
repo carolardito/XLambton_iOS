@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3223165C2127D28700A10484 /* MapZoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223165B2127D28700A10484 /* MapZoneViewController.swift */; };
+		3223165E2127D31200A10484 /* MissionUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223165D2127D31200A10484 /* MissionUpdateViewController.swift */; };
+		322316602127D44900A10484 /* DetailsPinPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223165F2127D44900A10484 /* DetailsPinPoint.swift */; };
+		322316622127D7E700A10484 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322316612127D7E700A10484 /* Country.swift */; };
+		322A01B7212A7B6D0055C84A /* MissionUpdateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A01B6212A7B6D0055C84A /* MissionUpdateTableViewCell.swift */; };
+		323AEB11212A559F00F91E42 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323AEB10212A559F00F91E42 /* CoreLocation.framework */; };
 		324F96F22114F3EF00A3B01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F96F12114F3EF00A3B01E /* AppDelegate.swift */; };
-		324F96F42114F3EF00A3B01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F96F32114F3EF00A3B01E /* ViewController.swift */; };
+		324F96F42114F3EF00A3B01E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F96F32114F3EF00A3B01E /* LoginViewController.swift */; };
 		324F96F72114F3EF00A3B01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324F96F52114F3EF00A3B01E /* Main.storyboard */; };
 		324F96F92114F3F200A3B01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324F96F82114F3F200A3B01E /* Assets.xcassets */; };
 		324F96FC2114F3F200A3B01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324F96FA2114F3F200A3B01E /* LaunchScreen.storyboard */; };
 		324F97072114F3F200A3B01E /* XLambtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F97062114F3F200A3B01E /* XLambtonTests.swift */; };
 		324F97122114F3F200A3B01E /* XLambtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F97112114F3F200A3B01E /* XLambtonUITests.swift */; };
+		3284C76921235BAD00B3B190 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284C76821235BAD00B3B190 /* TableViewController.swift */; };
+		3284C76B21235D6100B3B190 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284C76A21235D6100B3B190 /* Agent.swift */; };
+		3284C77021236B6F00B3B190 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3284C76F21236B6F00B3B190 /* libsqlite3.tbd */; };
+		3284C7722123A2ED00B3B190 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284C7712123A2ED00B3B190 /* DBManager.swift */; };
+		32A6823A2126715800A08831 /* EncryptDecrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A682392126715800A08831 /* EncryptDecrypt.swift */; };
+		32F034EE2124BB120040DCD7 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F034ED2124BB120040DCD7 /* Mission.swift */; };
+		32F034F02124F0670040DCD7 /* UpdateAgentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F034EF2124F0670040DCD7 /* UpdateAgentViewController.swift */; };
+		32F034F221250BDA0040DCD7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F034F121250BDA0040DCD7 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3223165B2127D28700A10484 /* MapZoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapZoneViewController.swift; sourceTree = "<group>"; };
+		3223165D2127D31200A10484 /* MissionUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionUpdateViewController.swift; sourceTree = "<group>"; };
+		3223165F2127D44900A10484 /* DetailsPinPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPinPoint.swift; sourceTree = "<group>"; };
+		322316612127D7E700A10484 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		3225050D211764880044C579 /* XLambton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLambton-Bridging-Header.h"; sourceTree = "<group>"; };
+		322A01B6212A7B6D0055C84A /* MissionUpdateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionUpdateTableViewCell.swift; sourceTree = "<group>"; };
+		323AEB10212A559F00F91E42 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		324F96EE2114F3EF00A3B01E /* XLambton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLambton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		324F96F12114F3EF00A3B01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		324F96F32114F3EF00A3B01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		324F96F32114F3EF00A3B01E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		324F96F62114F3EF00A3B01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		324F96F82114F3F200A3B01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324F96FB2114F3F200A3B01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,14 @@
 		324F970D2114F3F200A3B01E /* XLambtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLambtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		324F97112114F3F200A3B01E /* XLambtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLambtonUITests.swift; sourceTree = "<group>"; };
 		324F97132114F3F200A3B01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3284C76821235BAD00B3B190 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3284C76A21235D6100B3B190 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		3284C76F21236B6F00B3B190 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3284C7712123A2ED00B3B190 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		32A682392126715800A08831 /* EncryptDecrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptDecrypt.swift; sourceTree = "<group>"; };
+		32F034ED2124BB120040DCD7 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		32F034EF2124F0670040DCD7 /* UpdateAgentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAgentViewController.swift; sourceTree = "<group>"; };
+		32F034F121250BDA0040DCD7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323AEB11212A559F00F91E42 /* CoreLocation.framework in Frameworks */,
+				3284C77021236B6F00B3B190 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,7 @@
 				324F97052114F3F200A3B01E /* XLambtonTests */,
 				324F97102114F3F200A3B01E /* XLambtonUITests */,
 				324F96EF2114F3EF00A3B01E /* Products */,
+				3284C76E21236B6F00B3B190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +129,14 @@
 		324F96F02114F3EF00A3B01E /* XLambton */ = {
 			isa = PBXGroup;
 			children = (
+				3284C76D21236AC000B3B190 /* model */,
+				3284C76C21236AA300B3B190 /* Controllers */,
 				324F96F12114F3EF00A3B01E /* AppDelegate.swift */,
-				324F96F32114F3EF00A3B01E /* ViewController.swift */,
 				324F96F52114F3EF00A3B01E /* Main.storyboard */,
 				324F96F82114F3F200A3B01E /* Assets.xcassets */,
 				324F96FA2114F3F200A3B01E /* LaunchScreen.storyboard */,
 				324F96FD2114F3F200A3B01E /* Info.plist */,
+				3225050D211764880044C579 /* XLambton-Bridging-Header.h */,
 			);
 			path = XLambton;
 			sourceTree = "<group>";
@@ -123,6 +157,42 @@
 				324F97132114F3F200A3B01E /* Info.plist */,
 			);
 			path = XLambtonUITests;
+			sourceTree = "<group>";
+		};
+		3284C76C21236AA300B3B190 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				324F96F32114F3EF00A3B01E /* LoginViewController.swift */,
+				3284C76821235BAD00B3B190 /* TableViewController.swift */,
+				32F034EF2124F0670040DCD7 /* UpdateAgentViewController.swift */,
+				32F034F121250BDA0040DCD7 /* TableViewCell.swift */,
+				3223165B2127D28700A10484 /* MapZoneViewController.swift */,
+				3223165D2127D31200A10484 /* MissionUpdateViewController.swift */,
+				322A01B6212A7B6D0055C84A /* MissionUpdateTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3284C76D21236AC000B3B190 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3223165F2127D44900A10484 /* DetailsPinPoint.swift */,
+				3284C7712123A2ED00B3B190 /* DBManager.swift */,
+				3284C76A21235D6100B3B190 /* Agent.swift */,
+				32F034ED2124BB120040DCD7 /* Mission.swift */,
+				32A682392126715800A08831 /* EncryptDecrypt.swift */,
+				322316612127D7E700A10484 /* Country.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3284C76E21236B6F00B3B190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323AEB10212A559F00F91E42 /* CoreLocation.framework */,
+				3284C76F21236B6F00B3B190 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +263,7 @@
 				TargetAttributes = {
 					324F96ED2114F3EF00A3B01E = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 					324F97012114F3F200A3B01E = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -256,8 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324F96F42114F3EF00A3B01E /* ViewController.swift in Sources */,
+				32F034EE2124BB120040DCD7 /* Mission.swift in Sources */,
+				32F034F221250BDA0040DCD7 /* TableViewCell.swift in Sources */,
+				3284C7722123A2ED00B3B190 /* DBManager.swift in Sources */,
+				324F96F42114F3EF00A3B01E /* LoginViewController.swift in Sources */,
+				322316622127D7E700A10484 /* Country.swift in Sources */,
+				32F034F02124F0670040DCD7 /* UpdateAgentViewController.swift in Sources */,
+				3284C76B21235D6100B3B190 /* Agent.swift in Sources */,
+				32A6823A2126715800A08831 /* EncryptDecrypt.swift in Sources */,
+				322A01B7212A7B6D0055C84A /* MissionUpdateTableViewCell.swift in Sources */,
+				3284C76921235BAD00B3B190 /* TableViewController.swift in Sources */,
+				3223165E2127D31200A10484 /* MissionUpdateViewController.swift in Sources */,
 				324F96F22114F3EF00A3B01E /* AppDelegate.swift in Sources */,
+				3223165C2127D28700A10484 /* MapZoneViewController.swift in Sources */,
+				322316602127D44900A10484 /* DetailsPinPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XLambton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +522,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = carolini.XLambton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLambton/XLambton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XLambton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +542,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = carolini.XLambton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLambton/XLambton-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
